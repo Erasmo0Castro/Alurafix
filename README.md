@@ -8,7 +8,7 @@ Web
 
 
 Movil
-![image](https://github.com/user-attachments/assets/778523a4-bd54-4a1d-a0a0-1af587178f9d)
+![image](https://github.com/user-attachments/assets/e6cce923-1804-4bf0-a086-bbdbb2d984ba)
 
 
 
