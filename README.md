@@ -1,11 +1,13 @@
 # Alurafix
 Challenge
 Web
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/3d6bdfcb-a242-49ed-8bb3-0caecedc9890)
+
+
 
 
 Movil
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/778523a4-bd54-4a1d-a0a0-1af587178f9d)
 
 
 
