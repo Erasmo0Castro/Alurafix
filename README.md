@@ -5,7 +5,7 @@ Web
 ![image](https://github.com/user-attachments/assets/3d6bdfcb-a242-49ed-8bb3-0caecedc9890)
 
 
-
+<br>
 
 Movil
 ![image](https://github.com/user-attachments/assets/e6cce923-1804-4bf0-a086-bbdbb2d984ba)
