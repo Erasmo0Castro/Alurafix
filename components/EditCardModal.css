@@ -1,0 +1,98 @@
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  z-index: 1000;
+}
+
+.edit-card-modal {
+  display: flex;
+  flex-direction: column;
+  background-color: #492a60 ;
+  padding: 70px;
+  width: 70vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.edit-card-modal h2 {
+  margin-top: 0;
+  color: #dadee0;
+  text-align: center;
+}
+
+.edit-card-modal .form-group {
+  margin-bottom: 15px;
+}
+
+.edit-card-modal .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #cccccc;
+}
+
+.edit-card-modal input[type="text"],
+.edit-card-modal textarea,
+.edit-card-modal select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #072936;
+  border-radius: 4px;
+  background-color: #fbf9f9;
+  color: rgb(28, 27, 27);
+  resize: none;
+}
+
+.edit-card-modal .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-card-modal button {
+  background-color: #072936;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.edit-card-modal button svg {
+  margin-right: 8px;
+}
+
+.edit-card-modal button:hover {
+  background-color: #390d7f;
+}
+
+.edit-card-modal .close-button {
+  background-color: #860b0b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 0;
+}
+
+.edit-card-modal .close-button:hover {
+  background-color: #ff1a1a;
+}
+
+@media (max-width: 768px) {
+  .form-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

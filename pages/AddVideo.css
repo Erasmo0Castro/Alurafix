@@ -1,0 +1,68 @@
+.add-video {
+  background-color: #492a60 ;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.add-video h2 {
+  margin-top: 0;
+  color: #e8ebed;
+  text-align: center;
+}
+
+.add-video p {
+  margin-bottom: 20px;
+  color: #fdf6f6;
+  text-align: center;
+}
+
+.add-video .form-group {
+  margin-bottom: 15px;
+}
+
+.add-video .form-group label {
+  margin-bottom: 5px;
+  color: #cccccc;
+}
+
+.add-video input[type="text"],
+.add-video textarea,
+.add-video select,
+.add-video input[type="file"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #072936;
+  border-radius: 4px;
+  background-color: #fbfbfb;
+  color: rgb(30, 28, 28);
+  resize: none;
+}
+
+.add-video .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-video button {
+  background-color: #072936;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.add-video button svg {
+  margin-right: 8px;
+}
+
+.add-video button:hover {
+  background-color: #390d7f;
+}

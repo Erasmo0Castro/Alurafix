@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  padding-bottom: 60px; /* Añade espacio para el footer */
+}
+
+h2 {
+  color: #072936;;
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 10px;
+    padding-bottom: 80px; /* Más espacio para el footer y el navbar fijo */
+  }
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,17 @@
+.footer {
+background: radial-gradient(circle, rgba(176,174,238,1) 0%, rgb(53, 4, 64) 100%);
+ 
+  color: rgb(18, 7, 22) !important;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 7vh;
+    padding: 15px;
+  }
+}
